@@ -73,7 +73,8 @@ CNetGame::CNetGame(const char* szHostOrIp, int iPort, const char* szPlayerName, 
 	pGame->EnableClock(false);
 	pGame->EnableZoneNames(false);
 	if(pChatWindow) pChatWindow->AddDebugMessage("{FFFFFF}SA-MP {B9C9BF}" SAMP_VERSION " {FFFFFF}Started");
-	if(pChatWindow) pChatWindow->AddDebugMessage("{FFFFFF}Developed by {0088ff}MTHS1901");
+	if(pChatWindow) pChatWindow->AddDebugMessage("{FFFFFF}MTHS1901 {000000}- {0088ff}www.mths1901.com");
+	if(pChatWindow) pChatWindow->AddDebugMessage("{FFFFFF}Source Code {000000}- {ffffff}github.com/MTHS1901");
 	if(pChatWindow) pChatWindow->AddDebugMessage("");
 }
 
