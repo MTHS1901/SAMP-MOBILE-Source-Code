@@ -154,10 +154,10 @@ void RenderSplashScreen()
 	ImGui_ImplRenderWare_NewFrame();
 	ImGui::NewFrame();
 
-	ImGui::GetOverlayDrawList()->AddText(ImVec2(0,0), COLOR_WHITE, 
+	ImGui::GetOverlayDrawList()->AddText(ImVec2(5,5), COLOR_WHITE, 
 		"\n\t"
-		u8"By MTHS1901\n\t"
-		u8"github.com/MTHS1901\n\t");
+		u8"> MTHS1901\n\t"
+		u8"> www.mths1901.com\n\t");
 
 	ImGui::EndFrame();
 	ImGui::Render();
