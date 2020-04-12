@@ -109,8 +109,9 @@ void InitInGame()
 	{
 		// IP SERVIDOR
 		pNetGame = new CNetGame( 
-			"209.126.2.3",
-			7785, 
+		// Axwell World
+			"93.170.76.34",
+			7778,
 			pSettings->Get().szNickName,
 			pSettings->Get().szPassword);
 		bNetworkInited = true;
